@@ -1,0 +1,13 @@
+.stats-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 0;
+  margin: 1em;
+}

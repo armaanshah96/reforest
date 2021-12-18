@@ -1,13 +1,115 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Geo", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #555555;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title-font {
+  color: #000000;
+}
+
+.earthy-background {
+  background-color: #faeacd;
+}
+
+.earthy-color {
+  color: #faeacd;
+}
+
+.primary-background {
+  background-color: #6e9252;
+}
+
+.primary-color {
+  color: #6e9252;
+}
+
+.gray-background {
+  background-color: #555555;
+}
+
+.gray-color {
+  color: #555555;
+}
+
+.clay-background {
+  background-color: #edb386;
+}
+
+.clay-color {
+  color: #edb386;
+}
+
+.earth-accent-background {
+  background-color: #bc986a;
+}
+
+.earth-accent-color {
+  color: #bc986a;
+}
+
+.header-font-size {
+  font-size: 54px;
+}
+
+.large-font-size {
+  font-size: 42px;
+}
+
+.medium-font-size {
+  font-size: 36px;
+}
+
+.standard-font-size {
+  font-size: 30px;
+}
+
+.small-font-size {
+  font-size: 18;
+}
+
+@media (max-width: 1650px) {
+  .header-font-size {
+    font-size: 42px;
+  }
+
+  .large-font-size {
+    font-size: 30px;
+  }
+
+  .medium-font-size {
+    font-size: 24px;
+  }
+
+  .standard-font-size {
+    font-size: 18px;
+  }
+
+  .small-font-size {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-font-size {
+    font-size: 36px;
+  }
+
+  .large-font-size {
+    font-size: 24px;
+  }
+
+  .medium-font-size {
+    font-size: 18px;
+  }
+
+  .standard-font-size {
+    font-size: 12px;
+  }
+
+  .small-font-size {
+    font-size: 8px;
+  }
 }
